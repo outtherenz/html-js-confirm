@@ -5,7 +5,7 @@ const makeDialogContent = (content) => `
     <p>${content}</p>
     <menu>
       <button value="cancel">Cancel</button>
-      <button value="confirm">Confirm</button>
+      <button value="okay">Okay</button>
     </menu>
   </form>
 `;
@@ -20,7 +20,7 @@ export default (content) => {
   dialog.showModal();
 
   return new Promise((resolve) => dialog.addEventListener('close', () => {
-    resolve(dialog.returnValue === 'confirm' || false);
+    resolve(dialog.returnValue === 'okay' || false);
   }))
     .then((result) => {
       document.body.removeChild(dialog);
