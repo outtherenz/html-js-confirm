@@ -4,6 +4,7 @@
   "description": "",
   "main": "dist/html-js-confirm.js",
   "module": "dist/html-js-confirm.esm.js",
+  "repository": "https://github.com/outtherenz/html-js-confirm",
   "scripts": {
     "build": "rollup --config rollup.config.js && cp ./node_modules/dialog-polyfill/dist/dialog-polyfill.css ./dist/html-js-confirm.css",
     "test": "echo \"Error: no test specified\" && exit 1"
