@@ -1,1 +1,1 @@
-html-js-confirm.old
+html-js-confirm
