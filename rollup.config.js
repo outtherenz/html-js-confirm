@@ -26,7 +26,7 @@ export default [{
   input: 'src/index.js',
   output: {
     name: 'confirm',
-    file: 'dist/html-js-confirm.js',
+    file: 'dist/html-js-confirm.min.js',
     format: 'umd',
   },
   plugins: [
