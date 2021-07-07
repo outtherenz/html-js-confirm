@@ -1,6 +1,6 @@
 {
   "name": "html-js-confirm",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "main": "dist/html-js-confirm.js",
   "module": "dist/html-js-confirm.esm.js",
