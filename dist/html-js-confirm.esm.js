@@ -858,10 +858,10 @@ if (window.HTMLDialogElement === undefined) {
 const makeDialogContent = (content) => `
   <form method="dialog">
     <p>${content}</p>
-    <menu>
+    <div style="text-align: right;">
       <button value="cancel">Cancel</button>
       <button value="okay">Okay</button>
-    </menu>
+    </div>
   </form>
 `;
 
