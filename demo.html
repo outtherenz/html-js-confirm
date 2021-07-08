@@ -1,0 +1,21 @@
+<head>
+  <link rel="stylesheet" type="text/css" href="dist/html-js-confirm.css" />
+</head>
+<body>
+  <button type="button" id="good-time-button">
+    Click for a good time!
+  </button>
+
+  <script type="text/javascript" src="dist/html-js-confirm.min.js"></script>
+  <script>
+    const button = document.getElementById('good-time-button');
+
+    button.addEventListener('click', async () => {
+      if (await confirm('Are you sure you want to have a good time?')) {
+        console.log('🎉');
+      } else {
+        console.log('No party for you');
+      }
+    });
+  </script>
+</body>
