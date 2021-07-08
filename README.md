@@ -2,7 +2,7 @@ This package is a lightweight promisified reimplementation of the JavaScript `co
 
 Instead of blocking code execution, this dialog returns a promise that resolves with a boolean of the answer.
 
-[Check out a demo!](https://outtherenz.github.io/html-js-confirm/example.html)
+[Check out a demo!](https://outtherenz.github.io/html-js-confirm/demo.html)
 
 ![Demo of package](./demo.gif)
 
