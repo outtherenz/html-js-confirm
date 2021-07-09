@@ -20,7 +20,7 @@ export default (content) => {
   dialog.showModal();
 
   return new Promise((resolve) => dialog.addEventListener('close', () => {
-    resolve(dialog.returnValue === 'okay' || false);
+    resolve(dialog.returnValue === 'okay');
   }))
     .then((result) => {
       document.body.removeChild(dialog);
